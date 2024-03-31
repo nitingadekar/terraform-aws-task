@@ -20,7 +20,7 @@ Requirement:
    dynamodb_table = "dynamodb_table_for_state_lock"
    ```  
 3. Initialze the backend with terraform command 
-   `terraform init config/backend.hcl`
+   `terraform init --backend-config config/backend.hcl`
 
 * Configure inputs for resources. 
 
